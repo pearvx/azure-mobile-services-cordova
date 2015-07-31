@@ -13,7 +13,7 @@
     <repo>https://github.com/azure/azure-mobile-services-cordova/</repo>
     <issue>https://github.com/azure/azure-mobile-services/issues</issue>
 
-    <dependency id="org.apache.cordova.inappbrowser"/>
+    <dependency id="cordova-plugin-inappbrowser"/>
 
     <platform name="windows8">
         <js-module src="www/MobileServices.Web.js" name="AzureMobileServices">
@@ -24,25 +24,24 @@
     <platform name="windows">
         <js-module src="www/MobileServices.Web.js" name="AzureMobileServices">
             <runs />
-        </js-module> 
+        </js-module>
     </platform>
 
     <platform name="wp8">
         <js-module src="www/MobileServices.Web.js" name="AzureMobileServices">
             <runs />
-        </js-module> 
+        </js-module>
     </platform>
 
     <platform name="ios">
         <js-module src="www/MobileServices.Web.js" name="AzureMobileServices">
             <runs />
-        </js-module> 
+        </js-module>
     </platform>
 
     <platform name="android">
         <js-module src="www/MobileServices.Web.js" name="AzureMobileServices">
             <runs />
-        </js-module> 
+        </js-module>
     </platform>
 </plugin>
-
